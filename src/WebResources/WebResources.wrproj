@@ -1,0 +1,17 @@
+<Project>
+
+    <Target Name="Build">
+        <Exec Command="yarn install" />
+        <Exec Command="yarn build" />
+    </Target>
+
+    <Target Name="Clean">
+        <ItemGroup>
+            <ScriptFiles Include="scripts\**\*.js*"/>
+        </ItemGroup>
+        <Delete Files="@(ScriptFiles)"></Delete>
+    </Target>
+
+    <Target Name="GetProjectOutputPath" DependsOnTargets="Build" />
+
+</Project>

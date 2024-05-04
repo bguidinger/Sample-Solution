@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_sample_test" />
+  <EntityRelationship Name="lk_sample_test_createdby" />
+  <EntityRelationship Name="lk_sample_test_modifiedby" />
+  <EntityRelationship Name="owner_sample_test" />
+  <EntityRelationship Name="team_sample_test" />
+  <EntityRelationship Name="user_sample_test" />
+</EntityRelationships>

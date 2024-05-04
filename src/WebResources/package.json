@@ -1,0 +1,13 @@
+{
+  "name": "webresources",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/xrm": "^9.0.80",
+    "typescript": "^5.4.5"
+  }
+}
