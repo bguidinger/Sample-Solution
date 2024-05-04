@@ -6,7 +6,7 @@ This repository provides an example of how to create/build a Dataverse solution 
 
 To build the solution, run the following commands:
 
-```cmd
+```
 cd solution
 dotnet build
 ```
@@ -17,7 +17,7 @@ Note: To build a managed solution, a `-c Release` to the `dotnet build` command
 
 Running a `dotnet build` in the `solution` folder will build the entire solution. If you want to just build the Web Resources (i.e. transpile the TypeScript into JavaScript), you can instead run `dotnet build` in the `src/WebResources` directory.
 
-```cmd
+```
 cd src/WebResources
 dotnet build
 ```
@@ -28,7 +28,7 @@ You can then use [Fiddler AutoResponder](https://learn.microsoft.com/en-us/power
 
 To deploy to a development environment, first build the solution and then run the following command from the `solution` directory:
 
-```cmd
+```
 cd solution
 pac solution import
 ```
@@ -39,7 +39,7 @@ This will deploy the latest built version.
 
 After making changes in your development environment, you will need to sync your changes to your local environment. To do this, run the following commands:
 
-```cmd
+```
 cd solution
 ./Sync-Solution.ps1
 ```
